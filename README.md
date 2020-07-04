@@ -12,4 +12,9 @@ Create home page of LinkedIn and send it before 11 pm of 4 july-2020. complete p
   - Run ` npm start ` command to run the live-server.
   - Webpage will run open in the browser automatically.
   
- **if you don't have `npm` installed please install it from (https://nodejs.org/en/download/)**
+ **if you don't have `npm` installed. Please install it from (https://nodejs.org/en/download/)**
+
+### Screenshots
+
+<img src="screenshots/desktop.png"/>
+<img src="screenshots/mobile.png"/>
