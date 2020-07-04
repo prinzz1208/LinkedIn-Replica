@@ -1,5 +1,5 @@
 .nav {
-    width: 100%;
+    width: 100vw;
     height: 6rem;
     display: flex;
     // justify-content: center;
@@ -16,7 +16,7 @@
         justify-content: space-evenly;
         position: fixed;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
         height: 5vh;    
         overflow: hidden;
         background-color: white;
