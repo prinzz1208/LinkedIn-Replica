@@ -74,11 +74,19 @@ body {
       width: 100%; } }
 
 .logo {
-  font-size: 5rem;
+  width: 4rem;
+  height: 4rem;
   align-self: center;
   fill: white;
   color: var(--color-primary);
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .2s; }
+  @media only screen and (max-width: 37.5em) {
+    .logo {
+      display: none; } }
+  .logo:active {
+    transform: scale(0.8); }
 
 .user-profile {
   display: none; }
@@ -211,9 +219,8 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 10rem;
+    width: 8rem;
     height: 100%;
-    margin: 0 1rem;
     color: var(--color-grey-light-1);
     text-decoration: none;
     box-sizing: content-box;
@@ -229,7 +236,11 @@ body {
   .user-nav__item:hover .user-nav__icon,
   .user-nav__item--active .user-nav__icon {
     fill: white; }
+  .user-nav__item--active .user-nav__notification {
+    display: flex; }
   .user-nav__icon-box {
+    width: 6rem;
+    height: 5rem;
     position: relative;
     flex-direction: column;
     display: flex;
@@ -241,7 +252,8 @@ body {
     width: 2.5rem;
     fill: var(--color-grey-light-1); }
   .user-nav__icon-text {
-    display: block; }
+    display: block;
+    font-size: 1rem; }
   .user-nav__notification {
     font-size: 1rem;
     height: 1.75rem;
@@ -250,8 +262,8 @@ body {
     background-color: red;
     color: white;
     position: absolute;
-    top: 0.1rem;
-    right: 1.1rem;
+    top: 0;
+    right: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
