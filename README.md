@@ -6,7 +6,7 @@ Create home page of LinkedIn and send it before 11 pm of 4 july-2020. complete p
 - I have made a responsive version of this webpage which activates when the max-width is 600px and currently it is responsive only for mobile phones.
 
 ### Instructions
-  - To run the webpage download the files in a folder.
+  - To run the webpage download the files in a folder or clone the repo.
   - Open terminal in the folder.
   - Run ` npm install ` command in terminal to install all the dependencies.
   - Run ` npm start ` command to run the live-server.
