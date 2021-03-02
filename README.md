@@ -14,7 +14,7 @@ Create home page of LinkedIn and send it before 11 pm of 4 july-2020. complete p
   
  **if you don't have `npm` installed. Please install it from (https://nodejs.org/en/download/)**
 
-### Screenshots
+### My Solution Screenshots
 
 <img src="screenshots/desktop.png"/>
 <img src="screenshots/mobile.png"/>
